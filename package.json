@@ -1,0 +1,42 @@
+{
+  "name": "react-simple-panels",
+  "version": "1.0.0",
+  "description": "A simple React Panels without tabs and internal state",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "eslint ./src/*.js",
+    "build": "babel src --out-dir lib",
+    "clean": "rimraf lib",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsmepetrov/react-simple-panels.git"
+  },
+  "keywords": [
+    "react",
+    "panel",
+    "panels",
+    "list",
+    "switch",
+    "tab",
+    "tabs"
+  ],
+  "author": "Anton Petrov <petrov.aap@gmail.com> (http://github.com/itsmepetrov)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsmepetrov/react-simple-panels/issues"
+  },
+  "homepage": "https://github.com/itsmepetrov/react-simple-panels#readme",
+  "devDependencies": {
+    "babel": "^5.8.34",
+    "babel-eslint": "^4.1.5",
+    "eslint": "^1.9.0",
+    "eslint-config-airbnb": "^1.0.0",
+    "eslint-plugin-react": "^3.8.0",
+    "rimraf": "^2.4.3"
+  },
+  "peerDependencies": {
+    "react": ">=0.13.0"
+  }
+}
