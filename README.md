@@ -1,7 +1,8 @@
 # React Simple Panels
 
 [![build status](https://img.shields.io/travis/itsmepetrov/react-simple-panels/master.svg?style=flat-square)](https://travis-ci.org/itsmepetrov/react-simple-panels)
-[![npm version](https://img.shields.io/npm/v/react-simple-panels?style=flat-square)](https://www.npmjs.com/package/react-poptip)
+[![npm version](https://img.shields.io/npm/v/react-simple-panels.svg?style=flat-square)](https://www.npmjs.com/package/react-poptip)
+
 A simple React Panels without tabs and internal state
 
 ### Installation
