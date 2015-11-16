@@ -1,7 +1,7 @@
 # React Simple Panels
 
 [![build status](https://img.shields.io/travis/itsmepetrov/react-simple-panels/master.svg?style=flat-square)](https://travis-ci.org/itsmepetrov/react-simple-panels)
-[![npm version](https://img.shields.io/npm/v/react-simple-panels.svg?style=flat-square)](https://www.npmjs.com/package/react-poptip)
+[![npm version](https://img.shields.io/npm/v/react-simple-panels.svg?style=flat-square)](https://www.npmjs.com/package/react-simple-panels)
 
 A simple React Panels without tabs and internal state
 
@@ -30,7 +30,6 @@ export default class StatefulPanels extends Component {
     }
 
     render() {
-
         return {
             <PanelList activeIndex={this.state.activeIndex}>
                 <Panel index={Types.FIRST}>
