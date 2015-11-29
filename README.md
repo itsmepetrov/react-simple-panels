@@ -26,7 +26,7 @@ const Types = {
 
 export default class StatefulPanels extends Component {
     state = {
-        activeIndex: Types.FIRTS
+        activeIndex: Types.FIRST
     }
 
     render() {
